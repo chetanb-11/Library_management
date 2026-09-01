@@ -1,0 +1,14 @@
+C:\Users\cheta\RiderProjects\Library_management\Library_management\bin\Debug\net10.0\Library_management.exe
+C:\Users\cheta\RiderProjects\Library_management\Library_management\bin\Debug\net10.0\Library_management.deps.json
+C:\Users\cheta\RiderProjects\Library_management\Library_management\bin\Debug\net10.0\Library_management.runtimeconfig.json
+C:\Users\cheta\RiderProjects\Library_management\Library_management\bin\Debug\net10.0\Library_management.dll
+C:\Users\cheta\RiderProjects\Library_management\Library_management\bin\Debug\net10.0\Library_management.pdb
+C:\Users\cheta\RiderProjects\Library_management\Library_management\obj\Debug\net10.0\Library_management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cheta\RiderProjects\Library_management\Library_management\obj\Debug\net10.0\Library_management.AssemblyInfoInputs.cache
+C:\Users\cheta\RiderProjects\Library_management\Library_management\obj\Debug\net10.0\Library_management.AssemblyInfo.cs
+C:\Users\cheta\RiderProjects\Library_management\Library_management\obj\Debug\net10.0\Library_management.csproj.CoreCompileInputs.cache
+C:\Users\cheta\RiderProjects\Library_management\Library_management\obj\Debug\net10.0\Library_management.dll
+C:\Users\cheta\RiderProjects\Library_management\Library_management\obj\Debug\net10.0\refint\Library_management.dll
+C:\Users\cheta\RiderProjects\Library_management\Library_management\obj\Debug\net10.0\Library_management.pdb
+C:\Users\cheta\RiderProjects\Library_management\Library_management\obj\Debug\net10.0\Library_management.genruntimeconfig.cache
+C:\Users\cheta\RiderProjects\Library_management\Library_management\obj\Debug\net10.0\ref\Library_management.dll
