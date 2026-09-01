@@ -1,11 +1,6 @@
 ﻿namespace Library_management;
 
-public class Book
+public class Book(int bookId)
 {
-    public int Id { get; private set; }
-    
-    public Book(int bookId)
-    {
-        Id = bookId;
-    }
+    public int Id { get; private set; } = bookId;
 }

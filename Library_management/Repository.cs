@@ -2,7 +2,7 @@
 
 namespace Library_management;
 
-public class Repository<T>
+public class Repository<T> where T : class
 {
     private List<T> _items = new();
     public void Add(T item) => _items.Add(item);

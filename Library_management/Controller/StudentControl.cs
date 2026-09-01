@@ -40,7 +40,7 @@ public class StudentControl
         {
             Console.WriteLine("Enter the book id you want to borrow");
             int.TryParse(Console.ReadLine(), out int bookId);
-            if (student.AlotBook(bookId))
+            if (student.BorrowBook(new(bookId)))
             {
                 Console.WriteLine("book borrowed successfully");
             }
@@ -55,7 +55,7 @@ public class StudentControl
             Console.WriteLine("Enter the book id you want to return");
             int.TryParse(Console.ReadLine(), out int bookId);
             Console.WriteLine("book removing in process");
-            student.ReturnBook(bookId);
+            student.ReturnBook(new Book(bookId));
         }
     }
 }

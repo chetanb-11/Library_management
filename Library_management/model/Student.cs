@@ -8,14 +8,4 @@ public class Student : Member
     {
         Console.WriteLine("Student Account created");
     }
-
-    public bool AlotBook(int bookId)
-    {
-        throw new NotImplementedException();
-    }
-
-    public void ReturnBook(int bookId)
-    {
-        throw new NotImplementedException();
-    }
 }

@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using Library_management.Exception;
 
 namespace Library_management;
 
@@ -7,23 +8,17 @@ public class LibraryService
     private Repository<Book> _bookrepo = new();
     private Repository<Member> _memberrepo = new();
 
-    public void AddBook(Book book)
-    {
-        _bookrepo.Add(book);
-    }
-
+    public void AddBook(Book book) => _bookrepo.Add(book);
     public bool FindBook(int bookId) => _bookrepo.Find(b => b.Id == bookId) != null;
     public IEnumerable<Book> GetAllBooks() => _bookrepo.GetAll() as IEnumerable<Book>;
     public void RemoveBook(int bookId)
     {
         var book = _bookrepo.Find(b => b.Id == bookId);
-        if (book.Id != 0)
+        if (book is null)
         {
-            _bookrepo.Remove(book);
-            return;
+            throw new BookNotFoundException($"Book {bookId} not available");
         }
-
-        throw new CustomAttributeFormatException("Book not available");
+            _bookrepo.Remove(book);
     }
 
     public bool FindMember(int memberId) => _memberrepo.Find(m => m.MemberId == memberId) != null;

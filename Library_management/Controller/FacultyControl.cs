@@ -9,6 +9,7 @@ public class FacultyControl
         {
             Console.WriteLine("Books in database:");
             var books = memberService.GetAllBooks();
+
             if (books.Count() == 0) Console.WriteLine("No book exist in record");
             else
                 foreach (var book in books)
